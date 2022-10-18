@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link rel="stylesheet" href="./input.css" />
+</head>
+
+<body class="flex w-full h-full">
+    <section class="flex flex-col w-full   bg-[url('https://sunnylandingpages.com/upload/11862/pictures/eb3db80f2ef4043ecd0b4306e14d429ee16ae3d01db8124492f7c67f_1280.jpg')] relative bg-center bg-no-repeat bg-cover h-screen ">
+        <header class="flex flex-col md:flex-row w-full bg-gradient-to-b from-green-900 h-fit z-50">
+            <div class="flex flex-row w-full md:w-1/2 my-2 md:my-3">
+                <div id="logo" class="flex flex-row items-center w-1/2 cursor-pointer">
+                    <img class="h-10 mx-3" src="./image/logo.png" alt="">
+                </div>
+                <div id="menu-icon" class="flex  md:hidden flex-col w-1/2 items-end">
+                    <div id="hamburger" class="mx-3 h-12 cursor-pointer">
+                             <img src="./image/hamicon.png" alt="">
+                    </div>
+                    <div id="cross" class="hidden mx-3 cursor-pointer">
+                        <img class="" src="./image/cross.png" alt="">
+                    </div> 
+                </div>
+            </div>
+
+            <nav id="navbar" class="hidden md:block md:w-1/2 md:mx-3 md:my-3">
+                <ul id="elements" class="flex flex-col md:flex-row">
+                    <li class="mx-3 my-1 md:hover:my-[0.125rem]"><a class="text-white font-sans font-medium text-lg hover:no-underline hover:text-black hover:text-xl md:hover:text-lg" href="#" target="_blank">Home</a></li>
+                    <li class="mx-3 my-1 md:hover:my-[0.125rem]"><a class="text-white font-sans font-medium text-lg hover:no-underline hover:text-black hover:text-xl md:hover:text-lg " href="#" target="_blank">Services</a></li>
+                    <li class="mx-3 my-1 md:hover:my-[0.125rem]"><a class="text-white font-sans font-medium text-lg hover:no-underline hover:text-black hover:text-xl md:hover:text-lg" href="#" target="_blank">News</a></li>
+                    <li class="mx-3 my-1 md:hover:my-[0.125rem]"><a class="text-white font-sans font-medium text-lg hover:no-underline hover:text-black hover:text-xl md:hover:text-lg" href="#" target="_blank">About</a></li>
+                    <li class="mx-3 my-1 md:hover:my-[0.125rem]"><a class="text-white font-sans font-medium text-lg hover:no-underline hover:text-black hover:text-xl md:hover:text-lg" href="#" target="_blank">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="" class="flex flex-col w-full h-fit items-center z-50">
+              <div class="mt-10 text-center w-full">
+                <span class="text-white font-sans text-lg sm:text-2xl md:text-5xl font-bold mx-5">THIS DIWALI SOMETHING SPECIAL</span>
+              </div>
+
+              <div class="flex flex-col items-center md:justify-center w-full mt-10 space-y-2">
+                <div id="heroicon" class="animate-bounce">
+                    <img class="h-32 rounded-full cursor-pointer " src="./image/15257.jpg" alt="">
+                </div>
+
+                <div class="flex flex-col items-center mx-2 text-center space-y-4">
+                    <p class="text-white font-sans font-medium text-lg md:text-xl">Get exciting discount on every purchase on this festival sale.</p>
+                    <button class="border-2 border-white rounded-md text-center font-sans font-medium text-white bg-red-600 hover:bg-red-900 px-12 py-1 cursor-pointer"><a href="https://www.amazon.com/" target="_blank">Shop Now</a></button>
+                </div>
+              </div>
+        </section>
+
+        <div class="bg-[#5b5151a5] absolute top-0 left-0 z-10 w-full h-full"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
